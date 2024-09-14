@@ -1,0 +1,87 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e0f7fa; /* Lighter background color */
+    margin: 0;
+    padding: 150px;
+}
+
+.resume-container {
+    display: flex;
+    background-color: #ffffff; /* White background for the resume container */
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Left Section Styling */
+.left-section {
+    background-color: #00796b; /* Teal background */
+    color: #ffffff; /* White text */
+    padding: 20px;
+    width: 35%;
+    text-align: center;
+    border-right: 5px solid #004d40; /* Darker teal for border */
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    margin-top: 10%;
+    border-radius: 50%;
+    border: 5px solid #004d40; /* Darker teal for border */
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 10px 0;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #004d40; /* Darker teal for header */
+}
+
+h3 {
+    font-size: 18px;
+    padding: 2%;
+    margin: 20px 0 10px;
+    color: #004d40; /* Darker teal for sub-headers */
+    border-radius: 10px;
+    box-shadow: 0 0 15px #004d40; /* Darker teal shadow */
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+ul {
+    list-style-type: disc; /* Disc style for bullet points */
+    padding: 10px; /* Ensure padding is defined */
+    margin: 10px 0;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+/* Right Section Styling */
+.right-section {
+    padding: 20px;
+    width: 65%;
+}
+
+button {
+    font-family: Arial, sans-serif;
+    border-radius: 10px;
+    background-color: #00796b; /* Teal background for button */
+    color: white; /* White text color */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); /* Lighter shadow for better visibility */
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+    border: none; /* Ensure no border */
+}
+
+button:hover {
+    background-color: #004d40; /* Darker teal on hover */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); /* Slightly darker shadow on hover */
+}
